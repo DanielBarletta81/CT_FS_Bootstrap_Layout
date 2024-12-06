@@ -1,0 +1,21 @@
+html, body {
+    background-image: radial-gradient(rgb(54, 153, 240), rgb(201, 231, 251));
+}
+
+.card {
+    background-color: aqua;
+}
+
+form {
+    border: 3px solid gray;
+    box-shadow: 0 2px rgba(0,  85, 233, 0.8);
+    margin: 75px 25px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: rgba(180, 213, 242, 0.6);
+
+}
+
+.contact h3{
+    justify-items: center;
+}
