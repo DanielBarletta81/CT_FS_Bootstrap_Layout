@@ -1,0 +1,117 @@
+*  {
+
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', serif;
+    color: rgb(3, 3, 3);
+
+}
+
+body {
+    display: grid;
+    background-color: rgb(52, 61, 78);
+}
+
+#about{
+    display: flex;
+   
+    flex-wrap: nowrap;
+    margin: 15px;
+    padding: 15px;
+    background-color: rgba(122, 174, 225, 0.554);
+    align-self: center;
+    text-align: center;
+    border: 4px silver ;
+    box-shadow: 0  5px 25px rgb(15, 133, 183) ;
+}
+
+@media (max-width: 800px) {
+	#about {
+		display: flex;
+		flex-wrap: wrap;
+        flex-direction: column;
+	}
+}
+
+ h1 {
+    border: 3px groove silver;
+    color: rgba(5, 5, 44, 0.8);
+ } 
+
+header  {
+    background-image: url('images/diagnostics.jpg');
+    background-size: cover;
+    height: 100vh;
+    width: 100vh;
+    position: relative;
+    display: inline;
+    
+    justify-items: center;
+    align-items: center;
+    font-family: "Anton SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+   
+    
+   
+    align-self: center;
+    text-align: center;
+    border: 4px silver ;
+    box-shadow: 0  5px 25px rgb(15, 133, 183) ;
+    
+    
+}
+
+
+
+.col-8 h3, p {
+    flex-wrap: wrap;
+    margin: 15px;
+    padding: 15px;
+    background-color: rgba(195, 205, 215, 0.5);
+    align-self: center;
+    text-align: center;
+    border: 4px silver ;
+    box-shadow: 0  5px 25px rgb(15, 133, 183) ;
+}
+
+#sidebar {
+    align-content: center;
+    justify-items: center;
+    background-image: url('images/wintry_scene.jpg');
+    background-size: cover;
+    margin: 15px;
+    padding: 15px;
+    background-color: rgba(195, 205, 215, 0.5);
+    align-self: center;
+    text-align: center;
+    border: 4px silver ;
+    box-shadow: 0  5px 25px rgb(15, 133, 183) ;
+    
+}
+
+.featurette, .card  {
+    text-align: center;
+    margin: 25px;
+    padding: 10px;
+    border: 4px silver ;
+    background-color:  rgba(195, 205, 215, 0.5);
+    box-shadow: 0  5px 25px rgb(15, 133, 183) ;
+    border-radius: 20px;
+}
+
+
+footer {
+    
+    padding: 15px;
+    background-color: rgba(195, 205, 215, 0.5);
+    align-self: center;
+    text-align: center;
+    border: 4px silver ;
+    box-shadow: 0  5px 25px rgb(15, 133, 183) ;
+}
+
+footer.row {
+    align-items: center;
+}
